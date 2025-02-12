@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin-top: 70px; /* Adjusted for fixed navbar */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background: url('https://st2.depositphotos.com/6597960/10056/i/450/depositphotos_100560672-stock-photo-post-blog-social-media.jpg');
+}
+
+/* Blog Section */
+.container {
+    max-width: 1200px;
+}
+
+
+.text-center {
+    color: #fff; /* Set the text color to white */
+    font-weight: bold;
+  }
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.read-more {
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
+
+/* Load More Button */
+#loadMore {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#loadMore:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #f8f9fa;
+}
+
+.dark-mode .card {
+    background-color: #2a2a2a;
+    color: #fff;
+    border: 1px solid #444;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode .card-text {
+    color: #ddd;
+}
+
+.dark-mode .navbar, .dark-mode .footer {
+    background-color: #000;
+}
+
+.dark-mode .btn-dark {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+.dark-mode .read-more {
+    background-color: #444;
+    color: #fff;
+}
+
+.dark-mode .read-more:hover {
+    background-color: #666;
+}
+
+.dark-mode #loadMore {
+    background-color: #444;
+    color: #fff;
+}
+
+.dark-mode #loadMore:hover {
+    background-color: #666;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+    .container {
+        padding: 10px;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Footer */
+.footer {
+    margin-top: 30px;
+    padding: 20px 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}

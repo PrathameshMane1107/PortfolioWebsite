@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background: url('about-me.jpg');
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+/* .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+} */
+
+.navbar .dropdown-menu {
+    background: #222;
+}
+
+.navbar .dropdown-item {
+    color: white;
+    transition: background 0.3s;
+}
+
+.navbar .dropdown-item:hover {
+    background: #007bff;
+    color: white;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section .btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.hero-section .btn:hover {
+    background: #0056b3;
+}
+
+/* About Section */
+#about img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Services Section */
+.card {
+    background: url('photo1.jpg');
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Testimonials Section */
+.carousel-item {
+    color: rgb(244, 240, 240);
+    padding: 2rem;
+    font-style: italic;
+    background: #f8f9fa;
+    border-radius: 10px;
+    background-image: url('https://th.bing.com/th/id/OIP.Wl6_6UddvuTERQkibesv6QHaCF?w=1600&h=450&rs=1&pid=ImgDetMain');
+}
+
+/* Footer */
+footer {
+    background: #222;
+    padding: 2rem 0;
+    color: white;
+    text-align: center;
+}
+
+footer form {
+    max-width: 500px;
+    margin: auto;
+}
+
+footer input, footer textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+footer button:hover {
+    background: #0056b3;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-align: center;
+}
+
+footer a:hover {
+    color: #007bff;
+}
