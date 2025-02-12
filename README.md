@@ -20,7 +20,7 @@ JavaScript (ES6) – For interactive features
 Google Maps API – For location embedding
 
 File Structure-
-/portfolio-website  
+/Assignment  
 │── index.html          # Home Page  
 
 │── portfolio.html      # Portfolio Page  
