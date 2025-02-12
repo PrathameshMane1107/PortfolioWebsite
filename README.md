@@ -44,7 +44,7 @@ File Structure-
 │── README.md           # Project documentation 
 
 How to Use-
-1. From Homepage you can know basic info
+1. From Homepage you can know basic info.
 2. Click on Portfolio Page to view filtered projects.
 3. Use the Blog Section to read posts, toggle dark mode, and navigate through pagination.
 4. Fill out the Contact Form (JavaScript validation included).
