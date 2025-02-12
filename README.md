@@ -26,17 +26,11 @@ File Structure-
 │── blog.html           # Blog Page  
 │── contact.html        # Contact Page  
 │── style.css           # Style for index.html   
-
-|── style1.css          # Style for portfolio.html
-
-|── style2.css          # Style for blog.html
-
-|── style3.css          # Style for contact.html
-
+│── style1.css          # Style for portfolio.html
+│── style2.css          # Style for blog.html
+│── style3.css          # Style for contact.html
 │── script.js           # JavaScript for interactivity(For All Files)
-
 │── .jpg                # Images and other media  
-
 │── README.md           # Project documentation 
 
 How to Use-
